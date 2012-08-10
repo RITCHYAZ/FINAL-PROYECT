@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id_archivos;datatype:int,name:categoria_archivos;datatype:int,name:tipo_archivos;datatype:string,name:id_tipo_archivos;datatype:int,name:nombre_archivos;datatype:string,name:archivo_archivos;datatype:string,name:extension_archivos;datatype:string,name:portada_archivos;datatype:int,name:fecha_archivos;datatype:datetime" />
+</info>

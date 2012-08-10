@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.txt_blanco {
+	font-size: 18px;
+	color: #FFF;
+}
+/* CSS Document */
+
+
+body,td,th {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+a img,table{
+border:0px;
+}

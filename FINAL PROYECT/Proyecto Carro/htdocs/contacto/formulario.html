@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+#texto {
+	position:absolute;
+	left:384px;
+	top:101px;
+	width:283px;
+	height:396px;
+	z-index:9;
+}
+-->
+</style>
+<script language="javascript">
+	function validaCampos(form)
+	{	
+		msg="";	
+		if(form.nombre.value=="") 
+			msg="capture el nombre" + "\n";
+		if(form.tel.value=="") 
+		msg="capture el teléfono" + "\n";
+		if(form.email.value=="") 
+			msg = msg + "capture el email" +"\n";
+		if(form.mensaje.value=="") 
+			msg = msg + "capture el mensaje" +"\n";
+			
+		if (msg!="")
+		{
+			alert(msg);
+			return false;
+		}
+		return true;	
+	}
+</script>
+<link href="../estilos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="texto">
+  <form method="post" action="email.php" onsubmit="return validaCampos(this);">
+    <table width="100%" border="0">
+      <tr>
+        <td align="left" valign="top"><span class="txt_rosa">*NOMBRE:
+          <label></label>
+          </span>
+            <label><br />
+            <input name="nombre" type="text" class="formulario" id="nombre" size="32" />
+            </label>
+            <br />
+            <label></label>
+            <br />
+            <label><span class="txt_rosa">*TEL&Eacute;FONO:</span><br />
+            <input name="tel" type="text" class="formulario" id="tel" size="32" />
+            </label>
+            <br />
+            <br />
+            <span class="txt_rosa">*CORREO ELECTRONICO:</span><br />
+            <label>
+            <input name="email" type="text" class="formulario" id="email2" size="32" />
+            <br />
+            </label>
+            <br />
+            <label></label>
+            <span class="txt_rosa">MENSAJE:</span><br />
+            <textarea name="mensaje" cols="32" rows="8" class="formulario" id="mensaje"></textarea></td>
+      </tr>
+      <tr>
+        <td align="center" valign="top"><label>
+          <input type="submit" name="enviar" id="enviar" value="Enviar" />
+          </label>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <label>
+            <input type="reset" name="borrar" id="borrar" value="Borrar" />
+          </label></td>
+      </tr>
+    </table>
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Instalar AppServ
+
+1.- Dar click en Siguiente en todos los botnoes que no contengan algun formulario 
+2.- En la la peticion de correo y direcion web colocar las direcciones cualquiera 
+3.- en la contraseña que solicita colocar la que sea pero la anotan 
+
+*** esa contraseña la vana colocar en los archivos htdocs/Connections/
+
+el programa se va ainstalar en c:/appserv
+una vez instaladoo copiar la acrpeta del proyecto en c:appserv/www/
+

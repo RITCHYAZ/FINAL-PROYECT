@@ -1,0 +1,7 @@
+1 - Crear las tablas en la base de datos usando el archivo "SQL.sql".
+
+2- Abrir el archivo "index.php" y sustituir las partes donde dice: 
+
+a) "INCLUIR LA PAGINA DE TU CONNECCION AQUI" por la pagina donde está la conexión crada por Dreamweaver.
+b) "NOMBRE DE TU DATABASE" por el nombre de la variable de la base de datos.
+c) "NOMBRE DE TU CONNECCION AQUI" por el nombre de la variable de la conexión.
